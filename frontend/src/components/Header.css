@@ -9,4 +9,9 @@ header#main-header .header-content {
     max-width: 980px;
     margin: 0 auto;
     height: 72px;
+    padding: 0 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
