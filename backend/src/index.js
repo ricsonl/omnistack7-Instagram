@@ -10,6 +10,7 @@ const io = require('socket.io')(server);
 
 mongoose.connect('mongodb+srv://semana:semana@cluster0-xumzp.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
+    useUnifiedTopology: true,
 });
 
 app.use((req, res, next) => {
